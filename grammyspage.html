@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grammy´s</title>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <script src="javascript.js"></script>
+    <meta name="description" content="Fashion Reviews on Important Events"/>
+    <meta name="keywords" content="reviews, grammys, fashion, outfits, celebrities"/>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Mariana Bremont Garcia, Isabella Arguelles Rodriguez"/>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.jpg" width="250" height="250" alt="Brelles Word Logo"/>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="metgalapage.html">Met Gala</a></li>
+                <li><a class="active" href="grammyspage.html">Grammy´s</a></li>
+                <li><a href="oscarspage.html">Oscar´s</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>GRAMMY´S</h1>
+        <h2>The Best Dressed 2020</h2>
+        <button onclick="grammysQuiz()">Take a quiz</button>
+        <h4>*Slide the mouse to the picture to see the celebrity*</h4>
+        <div class="row">
+            <h3>Ariana Grande</h3>
+            <div class="column_small">
+                <img src="assets/arianadesign.jpg" id="myImage" width="250" height="300" alt="Ariana Grande Outfit" onmouseover="newImage()" onmouseout="newImage()">
+            </div>
+            <div class="column_big block">
+                <p>Ariana Grande showed with a Giambattista Valli grey dress, with her high ponytail as always, she looked great for this red carpet.</p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282806/">Ariana Grande Final Look</a></li>
+                    <li><a href="https://instagram.com/arianagrande?igshid=x34plksdkw6w">Ariana Grande Instagram</a></li>
+                </ul>
+                <p>Photo Creds: ©️”Ariana Grande at Grammys Red Carpet 2020”, by Cosmopolitan UK, <a href="https://www.youtube.com/watch?v=Ni4HPFzu2Lg">https://www.youtube.com/watch?v=Ni4HPFzu2Lg</a>,  licensed under CC BY 3.0.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Shawn Mendes</h3>
+            <div class="column_small">
+                <img src="assets/shawndesign.jpg" id="shawnMendes" width="250" height="300" alt="Shawn Mendes Outfit" onmouseover="mendes()" onmouseout="mendes()" >
+            </div>
+            <div class="column_big block">
+                <p>Shawn Mendes walked into the Grammy's wearing a Louis Vuitton red wine colored suit, he looked simple but efficient.</p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282819/">Shawn Mendes Final Look</a></li>
+                    <li><a href="https://instagram.com/shawnmendes?igshid=lsr0a11ecuzu">Shawn Mendes Instagram</a></li>
+                </ul>
+                <p>Photo Creds: ©️”Shawn Mendes at the 2019 American Music Awards”, by Cosmopolitan UK, <a href="https://www.youtube.com/watch?v=Z6S9PA7EpV8">https://www.youtube.com/watch?v=Z6S9PA7EpV8</a>, licensed under CC BY 3.0.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Demi Lovato</h3>
+            <div class="column_small">
+                <img src="assets/demidesign.jpg" id="demiLovato" width="250" height="300" alt="Demi Lovato Outfit" onmouseover="lovato()" onmouseout="lovato()">
+            </div>
+            <div class="column_big block">
+                <p>Demi Lovato wore to her stage comeback and to the Grammy's in an all white dress designed by Christian Siriano, she looked stunning for her return to the stage.</p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282822/">Demi Lovato Final Look</a></li>
+                    <li><a href="https://instagram.com/ddlovato?igshid=ifb34xtqvh53">Demi Lovato Instagram</a></li>
+                </ul>
+                <p>Photo Creds: ©️”Demi Lovato in interview for Vevo in 2015”, by Soho Media Group, <a href= "https://vimeo.com/141043611">https://vimeo.com/141043611</a>,  licensed under CC BY-SA 3.0.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Gwen Stefani</h3>
+            <div class="column_small">
+                <img src="assets/gwendesign.jpg" id="gwenStefani" width="250" height="300" alt="Gwen Stefani Outfit" onmouseover="stefani()" onmouseout="stefani()">
+            </div>
+            <div class="column_big block">
+                <p>Gwen Stefani walked into the Grammy's in a Dolce & Gabbana white short dress covered with white shells, she looked amazing.</p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282842/">Gwen Stefani Final Look</a></li>
+                    <li><a href="https://instagram.com/gwenstefani?igshid=9dex7qjibh1i">Gwen Stefani Instagram</a></li>
+                </ul>
+                <p>Photo Creds: ©️”Gwen Stefani & Blake Shelton at Grammys Red Carpet 2020” by Cosmopolitan UK, <a href="https://www.youtube.com/watch?v=Ni4HPFzu2Lg">https://www.youtube.com/watch?v=Ni4HPFzu2Lg</a>,  licensed under CC BY 3.0.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Bebe Rexha</h3>
+            <div class="column_small">
+                <img src="assets/bebedesign.jpg" id="bebeRexha" width="250" height="300" alt="Beba Rexha Outfit" onmouseover="bebe()" onmouseout="bebe()">
+            </div>
+            <div class="column_big block">
+                <p>Bebe Rexha showed in a Christian Cowan two piece opened black suit with diamonds all over her chest. She looked classy yet modern, we love that.</p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282841/">Bebe Rexha Final Look</a></li>
+                    <li><a href="https://instagram.com/beberexha?igshid=mqhxzsljqoym">Bebe Rexha Instagram</a></li>
+                </ul>
+                <p>Photo Creds: ©️”Bebe Rexha for Cosmopolitan 2019”, by cosmopolitanuk, <a href="https://www.youtube.com/watch?v=73cwzT-E8LI">https://www.youtube.com/watch?v=73cwzT-E8LI</a>,  licensed under  CC BY 3.0</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Lizzo</h3>
+            <div class="column_small">
+                <img src="assets/lizzodesign.jpg" id="Lizzo" width="250" height="300" alt="Lizzo Outfit" onmouseover="lizzo()" onmouseout="lizzo()">
+            </div>
+            <div class="column_big block">
+                <p>Lizzo walked into the Grammy's in a beautiful Versace gown colored in all white, covered with Swarovski crystals. She looked stunning, a mix of elegant and classy.</p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282807/">Lizzo Final Look</a></li>
+                    <li><a href="https://instagram.com/lizzobeeating?igshid=ncryj7l965jv">Lizzo Instagram</a></li>
+                </ul>
+                <p>Photo Creds: ©️”Lizzo on the 2020 Grammys Red Carpet”, by Cosmopolitan UK, <a href="https://www.youtube.com/watch?v=Ni4HPFzu2Lg">https://www.youtube.com/watch?v=Ni4HPFzu2Lg</a>,  licensed under CC BY 3.0.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Contact Us <a href="mailto:thebrellesword@gmail.com">thebrellesword@gmail.com</a></p>
+    </footer>
+</body>
+</html>

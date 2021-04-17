@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Met Gala</title>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <script src="javascript.js"></script>
+    <meta name="description" content="Fashion Reviews on Important Events"/>
+    <meta name="keywords" content="reviews, metgala, fashion, outfits, celebrities"/>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Mariana Bremont Garcia, Isabella Arguelles Rodriguez"/>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.jpg" width="250" height="250" alt="Brelles Word Logo"/>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="metgalapage.html">Met Gala</a></li>
+                <li><a href="grammyspage.html">Grammy´s</a></li>
+                <li><a href="oscarspage.html">Oscar´s</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>THE MET GALA</h1>
+        <h2>The Best Dressed 2019</h2>
+        <button onclick="metgalaQuiz()">Take a quiz</button>
+        <h4>*Slide the mouse to the picture to see the celebrity*</h4>
+        <div class="row">
+            <h3>Harry Styles</h3>
+            <div class="column_small">
+                <img src="assets/harrydesign.jpg" id="harryStyles" width="250" height="300" alt="Harry Styles Outfit" onmouseover="styles()" onmouseout="styles()">
+            </div>
+            <div class="column_big block">
+                <p>Harry Styles, as the co-host of the 2019 Met Gala showed in wearing Gucci from head to toe. He looked immaculate, we love it.</p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282659/">Harry Styles Final Look</a></li>
+                    <li><a href="https://www.instagram.com/harrystyles/?hl=es-la">Harry Styles Instagram</a></li>
+                </ul>
+                <p>Photo Creds: ©️”Harry Styles Denver HsLot”, by Lovclyhes, own work, licensed under CC BY-SA 4.0.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Lady Gaga</h3>
+            <div class="column_small">
+                <img src="assets/gagadesign.jpg" id="ladyGaga" width="250" height="300" alt="Lady Gaga Outfit" onmouseover="gaga()" onmouseout="gaga()">
+            </div>
+            <div class="column_big block">
+                <p>Lady Gaga as a co-host along with Harry Styles, showed in a Brandon Maxwell gown which she changed 4 times, changing her look each time. We loved it, in was innovative and modern.</p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282661/">Lady Gaga Final Look</a></li>
+                    <li><a href="https://www.instagram.com/ladygaga/?hl=es-la">Lady Gaga Instagram</a></li>
+                </ul>
+                <p>Photo Creds: ©️”Lady Gaga interview 2016”, by SMP Entertainment, <a href="https://vimeo.com/159307047">https://vimeo.com/159307047</a>,  licensed under CC BY 3.0.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Lily Rose Depp</h3>
+            <div class="column_small">
+                <img src="assets/lilydesign.jpg" id="roseDepp" width="250" height="300" alt="Lily Rose Depp Outfit" onmouseover="depp()" onmouseout="depp()">
+            </div>
+            <div class="column_big block">
+                <p>Lily Rose Depp walked into the met with a black vintage Chanel gown with gold chains. She looked stunning so elegant yet inside the rules of the met.</p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282758/">Lily Rose Depp Final Look</a></li>
+                    <li><a href="https://www.instagram.com/lilyrose_depp/?hl=es-la">Lily Rose Instagram</a></li>
+                </ul>
+                <p>Photo Creds: ©️”Lily Rose Depp yoga horse premiere 2016 sundance film festival”, by Mossroll, own work, licensed under CC BY-SA 4.0.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Kendall and Kylie Jenner</h3>
+            <div class="column_small">
+                <img src="assets/jennersdesign.jpg" id="jennerSisters" width="250" height="300" alt="Kendall and Kylie Jenner Outfits" onmouseover="jenner()" onmouseout="jenner()">
+            </div>
+            <div class="column_big block">
+                <p class="paragraph_2">Kendall and Kylie, both showed in Versace feathered gowns, each in a different color, Kendall using orange and Kylie purple. They looked so extravagant yet beautiful.</p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282641/">Kendall & Kylie Jenner Final Look</a></li>
+                    <li><a href="https://www.instagram.com/kendalljenner/?hl=es-la">Kendall Jenner Instagram</a></li>
+                    <li><a href="https://www.instagram.com/kyliejenner/?hl=es-la">Kylie Jennar Instagram</a></li>
+                </ul>
+                <p>Photo Creds: ©️”Kendall & Kylie Jenner interview”, by Condé Nast Russia, <a href="https://vimeo.com/169854990">https://vimeo.com/169854990</a>, licensed under CC BY 3.0.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Jared Leto</h3>
+            <div class="column_small">
+                <img src="assets/jareddesign.jpg" id="jaredLeto" width="250" height="300" alt="Jared Leto" onmouseover="leto()" onmouseout="leto()"/>
+            </div>
+            <div class="column_big block">
+                <p>Jared Leto entered in a red silky gown from Gucci and carrying his own head as a mannequin. We loved it, it was weird but it looked so great.</p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282722/">Jared Leto Final Look</a></li>
+                    <li><a href="https://www.instagram.com/jaredleto/?hl=es-la">Jared Leto Instagram</a></li>
+                </ul>
+                <p>Photo Creds: ©️”Jared Leto Comic Con 2016”, by Naano94, own work, licensed under CC BY-SA 4.0.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Madeline Petch</h3>
+            <div class="column_small">
+                <img src="assets/madelainedesign.jpg" id="madelainePetsch" width="250" height="300" alt="Madeline Petch Outfit" onmouseover="petsch()" onmouseout="petsch()">
+            </div>
+            <div class="column_big block">
+                <p class="paragraph_2">Madelaine Petsch showed in a beautiful light green dress by Jean Paul Gaultier, she looked like a modern Tinker Bell, we loved it.</p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282657/">Madeline Petch Final Look</a></li>
+                    <li><a href="https://www.instagram.com/madelame/?hl=es-la">Madeline Petch Instagram</a></li>
+                </ul>
+                <p>©️”Madelaine Petsch MTV Awards 2018” by Nicole Alexander, <a href="https://vimeo.com/277894717">https://vimeo.com/277894717</a>, licensed under CC BY 3.0.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Emily Ratajkowski</h3>
+            <div class="column_small">
+                <img src="assets/emilydesign.jpg" id="emilyRatajkowski" width="250" height="300" alt="Emily Ratajkowski Outfit" onmouseover="ratajkowski()" onmouseout="ratajkowski()">
+            </div>
+            <div class="column_big block">
+                <p>Emily entered to The Met in a costume Dundas dress, open in the back and front, with wings on her ears. This was a very different look, she looked modern.</p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282677/">Emily Ratajkowski Final Look</a></li>
+                    <li><a href="https://www.instagram.com/emrata/?hl=es-la">Emily Ratajkowski Instagram</a></li>
+                </ul>
+                <p>Photo Creds: ©️”Emily Ratajkowski Interview Nov 2019”, by Ashley Graham, <a href="https://www.youtube.com/watch?v=jomqZWNwb3M">https://www.youtube.com/watch?v=jomqZWNwb3M</a>, licensed under CC BY 3.0.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Ezra Miller</h3>
+            <div class="column_small">
+                <img src="assets/ezradesign.jpg" id="ezraMiller" width="250" height="300" alt="Ezra Miller" onmouseover="miller()" onmouseout="miller()"/>
+            </div>
+            <div class="column_big block">
+                <p class="paragraph_2">Ezra Miller showed in a costume Burberry suit with diamonds as a corset, with a extravagant multiple eye makeup. They were dressed very modern and classy, we love it. </p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282680/">Ezra Miller Final Look</a></li>
+                </ul>
+                <p>Photo Creds: ©️”Ezra Miller by Gage Skidmore”, by Gage Skidmore, own work, licensed under CC BY-SA 3.0.</p>
+            </div>
+        </div>
+        <div class="row">
+            <h3>Michael Urie</h3>
+            <div class="column_small">
+                <img src="assets/michaeldesign.jpg" id="michaelUrie" width="250" height="300" alt="Michael Urie Outfits" onmouseover="urie()" onmouseout="urie()" >
+            </div>
+            <div class="column_big block">
+                <p>Michael Urie wore a gender fluid outfit, half of it being a dress and the other half a suit, designed by Christian Siriano. He looked great, a very innovative design.</p>
+                <ul>
+                    <li><a href="https://www.pinterest.com.mx/pin/630152172855282737/">Michael Urie Final Look</a></li>
+                    <li><a href="https://www.instagram.com/michaelurielikesit/?hl=es-la">Michael Urie Instagram</a></li>
+                </ul>
+                <p>Photo Creds: ©️”Brandon Routh, David Krumholtz, Michael Urie, Sophie Bush”, by MingleMediaTVNetwork, <a href="https://www.flickr.com/photos/minglemediatv/7951002290/">https://www.flickr.com/photos/minglemediatv/7951002290/</a>, licensed under CC BY-SA 2.0.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Contact Us <a href="mailto:thebrellesword@gmail.com">thebrellesword@gmail.com</a></p>
+    </footer>
+</body>
+</html>
